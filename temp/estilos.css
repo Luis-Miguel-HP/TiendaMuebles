@@ -1,0 +1,25 @@
+.container{
+    background-color: lightcoral;
+    border: 3px solid black; 
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+ 
+
+}
+.container div{
+    background-color: #fafafa;
+    border: 3px solid black;
+    border-radius: 6px;
+ 
+
+    
+}
+
+/* listado de productos */
+
+
+.contenido-principal{
+    padding-top: 5rem;
+}

@@ -1,0 +1,98 @@
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+/* globales */
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+  /* header y navegacion */
+.nombre-sitio{
+    color: #000;
+  
+}
+
+.nombre-sitio span {
+    color: #037bc0;
+}
+
+.enlace{
+    text-transform: uppercase;
+    font-weight: bold;
+    /* text-decoration: none; */
+    color: #037bc0;
+   
+
+
+}
+
+
+.nombre-sitio{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    text-align: center; 
+
+
+    
+}
+
+.contenedor-navegacion{
+    border-top: 3px solid #e1e1e1;
+
+
+}
+
+.navegacion-principal{
+    padding: 20px 0;
+    display: flex;
+    
+ 
+    
+}   
+
+.hero{
+    background-image: url(../img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+
+  
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom:  0;;
+
+}
+
+.item {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  li:first-child{
+    color: red;
+  }
+  li:last-child{
+    background-color: green;
+    border: 10px;
+    display: inline-block;
+   
+  }
+
+  li:nth-child(2){
+    background-color: aquamarine;
+    display: inline-block;
+  }
