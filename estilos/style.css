@@ -447,4 +447,65 @@ li{
   
 }
 
+/* Tienda */
+
+.caja-carusel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f3f3f3;
+}
+
+.carusel {
+  overflow: hidden;
+  position: relative;
+  width: 90%;
+  max-width: 750px;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.carousel-img {
+  display: none; /* Ocultar todas las imágenes por defecto */
+  width: 100%;
+}
+
+.carousel-img.active {
+  display: block; /* Mostrar solo la imagen activa */
+}
+
+.carousel-img img {
+  width: 100%; /* Las imágenes ocuparán el 100% del ancho de su contenedor */
+  height: auto; /* Mantiene la proporción de las imágenes */
+}
+
+.prev-btn, .next-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 1rem 1rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.prev-btn:hover, .next-btn:hover {
+  opacity: 1;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
 
