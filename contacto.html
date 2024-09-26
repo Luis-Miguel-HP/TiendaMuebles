@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos/normalize.css" />
+    <link rel="stylesheet" href="estilos/style.css" />
+    <link rel="icon" href="estilos/icons/icons8-muebles-48.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+BE+WAL:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    </head>
+      <body> 
+    <header>
+      <h1 class="nombre-sitio">Tienda <span> Muebles </span></h1>
+      <!-- El h1 es uno por página -->
+    </header> 
+    <div class="contenedor-navegacion">
+    <nav class="navegacion-principal">
+        <a  class="enlace" href="index.html" target="_self">Inicio </a>
+        <a  class="enlace" href="Nosotros.html" target="_self">Nosotros </a>
+        <a class="enlace" href="Tienda.html" target="_self">Tienda</a>
+        <a class="enlace" href="Blog.html" target="_self">Blog</a>
+        <a class="enlace" href="Galeria.html" target="_self">Galería</a>
+        <a class="enlace" href="Contactos.html" target="_self">Contactos</a>
+
+         </div>
+      </nav>
+
+      <main> <h2 class="text-center">Contacto</h2>
+            <form class="Formulario" method="post" autocapitalize="none" autocomplete="on">
+                <fieldset>
+                    <legend>Tus Datos</legend>
+                    <div class="campo">
+                    <label for="name">Nombre:</label>
+                    <input id="name" type="text" placeholder="Coloca tu nombre" required>
+                    </div>
+                    <div class="campo">
+                    <label for="Asunto">Asunto:</label>
+                    <input id="Asunto" type="text" placeholder="Tu Asunto" required>
+                    </div>
+                    <div class="campo">
+                    <label for="Email">Email:</label>
+                    <input id="Email" type="email" placeholder="Email:" required>
+                    </div>
+
+                    <div class="campo">
+                    <label for="Tel">Telefono:</label>
+                    <input id="Tel" type="tel" placeholder="Tu Numero" required min="10" max="10">
+                    </div>
+                    <div class="campo">
+                    <label for="Tel">Telefono:</label>
+                    <input id="Tel" type="tel" placeholder="Tu Numero" required min="10" max="10">
+                    </div>
+
+                    <div class="campo">
+                        <label for="Area">Mensaje:</label>
+                        <textarea name="Area" id="Area" rows="5" cols="20"></textarea>
+                        </div>
+                    
+            
+                </fieldset>
+
+                <fieldset>
+                    <legend>País</legend>
+  <div class="campo-select">
+<label>Selecione un Pais:</label>
+    <select name="pais" id="pais">
+        <option disabled> ---Selecione---  </option>
+        <option value="argentina">Argentina</option>
+        <option value="bolivia">Bolivia</option>
+        <option value="brasil">Brasil</option>
+        <option value="chile">Chile</option>
+        <option value="colombia">Colombia</option>
+        <option value="costa_rica">Costa Rica</option>
+        <option value="cuba">Cuba</option>
+        <option value="ecuador">Ecuador</option>
+        <option value="el_salvador">El Salvador</option>
+        <option value="guatemala">Guatemala</option>
+        <option value="honduras">Honduras</option>
+        <option value="mexico">México</option>
+        <option value="nicaragua">Nicaragua</option>
+        <option value="panama">Panamá</option>
+        <option value="paraguay">Paraguay</option>
+        <option value="peru">Perú</option>
+        <option value="rep_dominicana" selected>República Dominicana</option>
+        <option value="uruguay">Uruguay</option</option>
+        <option value="venezuela">Venezuela</option>
+      </div>
+    </select>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Informacion extra</legend>
+                    <div class="campo">
+                    <label for="cliente">Cliente</label>
+                    <input type="radio" id="cliente" name="tipo" value="cliente">
+                  </div>
+                  <div class="campo">
+                    <label for="cliente">Proveedor</label>
+                    <input type="radio" id="cliente" name="tipo" value="proveedor">
+                  </div>
+                  <div class="campo">
+                    <label for="interes">Categoria de Interes:</label>
+                    <input list="interes" name="interes">
+                    <datalist class="listd" id="interes" >
+                      <option value="cocina"></option>
+                      <option value="exterior"></option>
+                      <option value="recamaras"></option>
+                      <option value="oficina"></option>
+                    </datalist>
+                  </div>
+
+                </fieldset>
+
+                <input class="btn" type="submit" value="enviar Formulario">
+                
+            </form>
+        
+      </main>
+      
+
+     <footer class="pie">
+      <div class="footer-site">
+      <div>
+        <h3>Categorias</h3>
+        <nav class="footer-menu">
+          <a href="@">Cocina</a>
+          <a href="@">Jardin</a>
+          <a href="@">Cochera</a>
+          <a href="@">Dormitorios</a>
+        </nav>
+      </div>
+
+      <div>
+        <h3>Sobre Nosotros</h3>
+        <nav class="footer-menu"> 
+          <a href="@">Nuestra Historia</a>
+          <a href="@">Mision, Vision, valores</a>
+          <a href="@">Politica de Privacidad</a>
+          <a href="@">Terminos de Servicio</a>
+        </nav>
+      </div>
+
+      <div >
+        <h3 id="soporte">Soporte</h3>
+        <nav  class="footer-menu">
+          <a href="@">Preguntas Frecuentes</a>
+          <a href="@">Ayuda En Linea</a>
+          <a href="@">Confianza y Seguridad</a>
+         
+        </nav>
+      </div>
+      </div>
+         <p class="copyright"> &#169;Todos Los Derechos Reservados</p>  
+    
+   
+  
+    </footer>
+
+</body>
+</html>

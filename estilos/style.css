@@ -60,9 +60,7 @@ display: block;
 
 
 /* utilidades */
-.text-center{
-  text-align: center;
-}
+
 
 
 
@@ -80,10 +78,19 @@ display: block;
   margin:1px;
   
   }
+
+  .text-center{
+    text-align: center;
+  }
+
+  .max-width-30{
+    max-width: 30rem;
+  }
   
   
   .btn:hover{
   background-color: #769c02;
+  cursor: pointer;
   
   }
 
@@ -447,6 +454,46 @@ li{
   
 }
 
+.entrada-meta{
+  display: flex;
+
+  
+}
+
+.entrada-meta p{
+  padding-right: 2rem;
+  padding-left: 150px;
+  font-weight: bold   ;
+  font-size: 2rem;
+ 
+}
+
+
+.entrada-meta span{
+  color: #037bc0;
+}
+
+.entrada-blog{
+  justify-content: center;
+  text-align: left;
+  padding-left: 200px;
+  font-size: 4rem;
+}
+
+.blog a{
+  display: block;
+  margin-right: 500px;
+  margin-left: 190px;
+  margin-top: 25  px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
 /* Tienda */
 
 .caja-carusel {
@@ -509,3 +556,99 @@ li{
   right: 10px;
 }
 
+
+.Formulario{
+  width: 80rem;
+  margin-left: 25%;
+  margin-right: 50%;
+  margin-top: 0;
+  margin-bottom: 0;
+
+
+}
+
+.Formulario fieldset{
+  border: 2px solid black;
+  margin-bottom: 2rem;
+  padding-bottom: 100px;
+}
+
+.Formulario legend{
+  text-align: center;
+  background-color: #005485;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  width: 80%;
+  padding: 2.5rem;
+  font-size: 15px;
+
+
+}
+.campo{
+  display: flex;
+  font-size: 20px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+
+}
+
+.campo label{
+  flex-basis: 14rem;
+  font-weight: bold;
+  font-size: 2rem;
+
+  margin-left: 150px;
+  
+}
+.campo input:not([type="radio"]),
+
+.campo select{   
+  
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 30px;;  
+  
+  
+} 
+
+.campo textarea{
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 150px x;;  
+  
+
+}
+
+
+.campo input[type="radio"]{
+  margin: 15px;
+
+
+
+
+}
+
+select{
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 35px;
+}
+
+.campo-select{
+
+  font-size: 30px;
+  font-weight: bold;
+  }
+
+  label[for="interes"]{
+    margin-right: 10px;
+  
+  
+  }
+
+.campo datalist{
+
+}
